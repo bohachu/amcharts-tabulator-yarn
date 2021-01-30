@@ -1,0 +1,19 @@
+{
+  "name": "amcharts-tabulator-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html --experimental-scope-hoisting"
+  },
+  "dependencies": {
+    "@amcharts/amcharts4": "4.10.13",
+    "tabulator-tables": "^4.9.3"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
